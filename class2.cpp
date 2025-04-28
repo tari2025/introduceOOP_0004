@@ -3,8 +3,11 @@ using namespace std;
 
 class persegi_panjang
 {
-    private
+private
+    int panjang;
+    int lebar;
+    int luas;
 };
-    int main()
-    {
-    }
+int main()
+{
+}
