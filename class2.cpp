@@ -16,7 +16,16 @@ public:
         cout << "masukkan lebarnya: ";
         cin >> lebar;
     }
-};
-int main()
-{
-}
+    void output_data()
+    {
+        cout << "tampilkan luas = " << luas << endl;
+    }
+    void hitung_luas()
+    {
+        luas = panjang * lebar;
+    };
+    int main()
+    {
+        persegi_panjang pp;
+        pp.input_data();
+    }
