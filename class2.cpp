@@ -10,6 +10,12 @@ private:
 
 public:
     void input_data()
+    {
+        cout << "masukkan panjang: ";
+        cin >> panjang;
+        cout << "masukkan lebarnya: ";
+        cin >> lebar;
+    }
 };
 int main()
 {
