@@ -1,13 +1,27 @@
 #include <iostream>
-using name space std;
+using namespace std;
 
-class mahasiswa
+class Mobil
 {
-public
-    int NIM;
-    string nama;
-    float nilai;
-    void printData
-}
 
-// introduceOOP_0004
+public:
+    string nama_mobil;
+    string tipe_mobil;
+
+private:
+    int harga_mobil;
+
+public:
+    void input_data()
+    {
+        cout << "masukkan nama mobil: ";
+        cin >> nama_mobil;
+        cout << "masukkan tipe mobil: ";
+        cin >> tipe_mobil;
+        cout << "masukkan harga mobil: ";
+        cin >> harga_mobil;
+    }
+};
+inta main()
+
+    // introduceOOP_0004
