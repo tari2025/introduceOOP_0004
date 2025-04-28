@@ -11,7 +11,7 @@ private:
     int harga_mobil;
 
 public:
-    void input_data()
+    void input_data() // Input data
     {
         cout << "masukkan nama mobil: ";
         cin >> nama_mobil;
