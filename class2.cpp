@@ -7,6 +7,9 @@ private:
     int panjang;
     int lebar;
     int luas;
+
+public:
+    void input_data()
 };
 int main()
 {
