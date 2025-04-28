@@ -27,7 +27,7 @@ public:
 };
 int main()
 {
-    mobil sport;
+    Mobil sport;
     sport.input_data();                                  // methode
     cout << "nama mobil = " << sport.nama_mobil << endl; // input data
     cout << "tipe mobil = " << sport.tipe_mobil << endl;
