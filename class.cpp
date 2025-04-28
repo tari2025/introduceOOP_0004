@@ -21,6 +21,10 @@ public:
         cout << "masukkan harga mobil: ";
         cin >> harga_mobil;
     }
+    void output_data()
+    {
+        cout << "masukkan harga mobil = " << harga_mobil << endl;
+    }
 };
 int main()
 {
@@ -28,4 +32,5 @@ int main()
     sport.input_data();                                  // methode
     cout << "nama mobil = " << sport.nama_mobil << endl; // input data
     cout << "tipe mobil = " << sport.tipe_mobil << endl;
+    sport.output_data();
 }
