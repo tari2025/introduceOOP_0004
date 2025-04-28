@@ -9,7 +9,7 @@ private:
     int luas;
 
 public:
-    void input_data() // input data
+    void input_data() // input data.
     {
         cout << "masukkan panjang: ";
         cin >> panjang;
